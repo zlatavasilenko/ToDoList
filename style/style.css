@@ -1,0 +1,21 @@
+/* Error: Undefined variable.
+ *    ,
+ * 30 |       font-size: $title-mobile;
+ *    |                  ^^^^^^^^^^^^^
+ *    '
+ *   components\_form-authorization.scss 30:18  @content
+ *   mixin\_adaptive.scss 14:7                  respond-to()
+ *   components\_form-authorization.scss 29:5   @import
+ *   pages\_authorization.scss 1:9              @import
+ *   style.scss 3:9                             root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 30 \2502        font-size: $title-mobile;\d\a    \2502                   ^^^^^^^^^^^^^\a    \2575 \a   components\\_form-authorization.scss 30:18  @content\a   mixin\\_adaptive.scss 14:7                  respond-to()\a   components\\_form-authorization.scss 29:5   @import\a   pages\\_authorization.scss 1:9              @import\a   style.scss 3:9                             root stylesheet";
+}
